@@ -120,7 +120,7 @@ bool res = nfc.readData(vindex, &item, sizeof(NfcItem));
 
 
 # よく使う関数
-よく使う関数を紹介します。内部的に使っているものや、あまり使う機会のないものは [NfcEasyWriter.h](NfcEasyWriter) をご覧ください。プロテクト関連は後述します。
+よく使う関数を紹介します。内部的に使っているものや、あまり使う機会のないものは [NfcEasyWriter.h](NfcEasyWriter.h) をご覧ください。プロテクト関連は後述します。
 ### 初期化
 ```cpp
 void init();
